@@ -13,12 +13,14 @@ os.chdir(r'C:\Users\klty0\Desktop\pkmodelling\src')
 # Import the skpk library (skpk is abbreviation for scikit-PK)
 import skpk
 
+# Initializing the compartments
 C1 = skpk.Cmt(1, 'A1', 1)
 C2 = skpk.Cmt(2, 'First-Pass', 10)
 C3 = skpk.Cmt(3, 'Free Plasma Drug')
 C4 = skpk.Cmt(4, 'Protein Bound Plasma', 20)
 C5 = skpk.Cmt(5, 'Peripheral Tissues', 15)
 
+# Getting the attributes of the compartment C1
 C1.get_attr()
 C1.set_attr(new_cmt_name = 'Absorption')
 C1.get_attr()
