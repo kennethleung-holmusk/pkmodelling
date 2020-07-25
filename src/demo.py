@@ -1,17 +1,16 @@
 # ****************************************
-#          Front-End User Script
+#            Demo Script
 # ****************************************
 
-# Import necessary libraries
+# Import necessary libraries (Change directory to location of library files)
 import os
-#os.chdir(r'/home/klty0988/Desktop/scikit-pk/src')
-os.chdir(r'C:\Users\klty0\Desktop\scikit-pk\src')
-#os.chdir(r'C:\Users\Kenneth Leung\Desktop\scikit-pk\src')
+os.chdir(r'C:\Users\klty0\Desktop\pkmodelling\src')
 
 # ===========================================
 #              Demonstration
 # ===========================================
 
+# Import the skpk library (skpk is abbreviation for scikit-PK)
 import skpk
 
 C1 = skpk.Cmt(1, 'A1', 1)
