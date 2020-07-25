@@ -22,10 +22,15 @@ C5 = skpk.Cmt(5, 'Peripheral Tissues', 15)
 
 # Getting the attributes of the compartment C1
 C1.get_attr()
+
+# Set new attribute (in this case, set new compartment name)
 C1.set_attr(new_cmt_name = 'Absorption')
 C1.get_attr()
 
+# Show list of existing compartment names
 C1.list_cmt_names
+
+# Show list of compartment IDs
 C1.list_cmt_ids
 
 C2.get_attr()
@@ -184,23 +189,23 @@ A.get_linked_cmts_in_model()
 # ==============================
 #       Testing GraphViz
 # ==============================
-import pydotplus
-import graphviz
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-import os
+# import pydotplus
+# import graphviz
+# import matplotlib.pyplot as plt
+# import matplotlib.image as mpimg
+# import os
 
-from IPython.display import display, Image
+# from IPython.display import display, Image
 
-G = pydot.Dot(graph_type='digraph')
-node = pydot.Node('test_node', style='filled',fillcolor='green')
-G.add_node(node)
+# G = pydot.Dot(graph_type='digraph')
+# node = pydot.Node('test_node', style='filled',fillcolor='green')
+# G.add_node(node)
 
 
-im = Image(G.create_png())
-display(im)
+# im = Image(G.create_png())
+# display(im)
 
-plt.imshow()
+# plt.imshow()
 
 
 
