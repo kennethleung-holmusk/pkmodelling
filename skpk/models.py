@@ -2,11 +2,10 @@
 #        Model Class
 # =========================
 # Pending
-# - Solving ODE function
+# - Solving ODE function (Currently can work up to coefficient matrix generation)
 # - Create modlib folder to save and store pre-built PK models
 # - User defined errors (and review error messages)
 # - Unit testing
-# - Tutorial (HTML instructions guide)
 # - GraphViz (Postpone)
 
 import numpy as np
